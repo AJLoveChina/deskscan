@@ -1,0 +1,31 @@
+{
+  "name": "deskscan",
+  "version": "1.0.0",
+  "description": "A cmmand line tool for desktop scanner of qrcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJLoveChina/deskscan.git"
+  },
+  "keywords": [
+    "command-line",
+    "qrcode"
+  ],
+  "author": "AJLoveChina",
+  "license": "MIT",
+  "bin": {
+    "deskscan": "./bin/bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/AJLoveChina/deskscan/issues"
+  },
+  "homepage": "https://github.com/AJLoveChina/deskscan#readme",
+  "dependencies": {
+    "jimp": "^0.6.0",
+    "qrcode-reader": "^1.0.4",
+    "screenshot-desktop": "^1.7.0"
+  }
+}
